@@ -1,57 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #eaf4ff;
-    margin: 0;
-    padding: 40px;
-}
 
-h1 {
-    text-align: center;
-    color: #1e3a5f;
-    margin-bottom: 30px;
+body {
+    background-color: #e6f0ff;
+    font-family: Arial, sans-serif;
 }
 
 form {
     background-color: white;
-    max-width: 500px;
-    margin: auto;
-    padding: 30px;
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 2px solid #b3ccff;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #174ea6;
+    font-size: 25px;
+    text-align: center;
 }
 
 label {
     display: block;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 15px;
 }
 
-input,
-select {
+input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #bbb;
-    border-radius: 6px;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #7a9cc6;
+    border-radius: 5px;
     box-sizing: border-box;
-    font-size: 15px;
 }
 
-input:focus,
-select:focus {
-    border-color: #4285f4;
-    outline: none;
-}
-
-input[type="submit"] {
-    background-color: #4285f4;
+button {
+    width: 100%;
+    background-color: #1769aa;
     color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
-    margin-top: 10px;
+    transition: background-color 0.3s;
 }
 
-input[type="submit"]:hover {
-    background-color: #2563c7;
+button:hover {
+    background-color: #0d3f73;
 }
